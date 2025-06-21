@@ -1,0 +1,13 @@
+body {
+    scroll-behavior: smooth;
+}
+
+/* Mobile menu animation  */
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-menu.active {
+        display: block;
+    }
+}
